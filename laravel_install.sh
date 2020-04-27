@@ -1,3 +1,9 @@
+#This is a simple script that install apache,mysql,php,composer and create a sample laravel project
+# in apache root directory , so that you can access it through IP/myapplication/public
+# Warnings :
+#php ver 7.2 
+#it is all non-interactive, but mysql_secure_installation part , it will ask you for some mysql security configurations & root password
+
 apt-get update
 apt-get -y upgrade
 apt -y autoremove
